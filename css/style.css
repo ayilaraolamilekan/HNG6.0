@@ -1,0 +1,110 @@
+body{
+    border: 2px solid deepskyblue;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 2em;
+    box-shadow: deepskyblue 0 0 10px 5px;
+}
+h2, h3{
+    color: deepskyblue;
+}
+.name{
+    color: deepskyblue;
+    text-align: center;
+}
+.about{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.education{
+    background-color: deepskyblue;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 4px;
+}
+.education-section{
+    margin-left: 35px;
+}
+.graduating{
+    margin-left: 370px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: medium;
+    color: black;
+}
+.degree{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: medium;
+    color: black;
+}
+.degree-waec,.graduating-waec{
+    margin-left: 10px;
+    color: black;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: medium;
+}
+.graduating-waec{
+    margin-left: 370px;
+}
+.degree-primary, .graduating-primary{
+    margin-left: 10px;
+    color: black;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: medium;
+}
+.graduating-primary{
+    margin-left: 359px;
+}
+.electronic{
+    color: black;
+    font-size: medium;
+    font-weight: lighter;
+    font-style: italic;
+}
+.graduating-electronic{
+    color: black;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: medium;
+    margin-left: 550px;
+}
+.graduating-electrical{
+    color: black;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: medium;
+    margin-left: 500px;
+}
+.list{
+    color: deepskyblue;
+}
+.list-2{
+    margin-left: 150px;
+}
+.list-3{
+    margin-left: 160px;
+}
+.list-4{
+    margin-left: 135px;
+}
+.list-5{
+    margin-left: 192px;
+}
+.list-6{
+    margin-left: 220px;
+}
+.img{
+    height: 170px;
+    width: 170px;
+    float: right;
+    margin-right: 80px;
+    border-radius: 100px;
+}
+.about{
+    margin-left: 180px;
+}
+
