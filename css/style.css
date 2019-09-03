@@ -107,4 +107,55 @@ h2, h3{
 .about{
     margin-left: 180px;
 }
+.contact{
+    margin-left: 20px;
+    font-size: large;
+    font-weight: bold;
+    color: deepskyblue;
+}
+input{
+    padding: 8px;
+    margin: 10px;
+    width: 250px;
+
+}
+.asdf:focus{
+    border: 1px solid deepskyblue;
+}
+.input{
+    margin-left: 20px;
+}
+.text-area{
+    margin-left: 70px;
+
+}
+textarea{
+    width: 260px;
+}
+.submit{
+    width: 100px;
+    margin-left: 65px;
+}
+.submit1{
+    background-color: deepskyblue;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+.error{
+    display: none;
+}
+@media (max-width: 570px){
+    body{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .img{
+        float: none;
+        margin-left: 135px;
+    }
+    .about{
+        text-align: center;
+    }
+}
 

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>AYILARA</title>
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/my_js.js"></script>
 </head>
 <body>
     <h1 class="name">SODIQ OLAMILEKAN AYILARA</h1>
@@ -67,5 +68,13 @@
     <div>(234) 802-7022794</div>
     <div>Azeezolabisi@gmail.com</div>
 </div>
+<div class="contact">CONTACT ME</div>
+    <form action="#" name="my_form" method="post" >
+        <div class="input">Name:<input type="text" class="asdf" name="my_form" id="name" onblur="checkInput('name', 'error', 4, 'Name', 'four' )" required><span class="error" id="error"></span></div>
+        <div class="input">Email:<input type="email" class="asdf" name="my_form" required placeholder="Example@gmail.com"></div>
+        <div class="input"> Title:  <input type="text" class="asdf" name="my_form" required></div>
+        <div class="text-area"><textarea name="essay" class="asdf" cols="30" rows="10" placeholder="Message" id="message" onblur="checkInput('message', 'error1', 20, 'Message', 'twenty' )" required></textarea><span class="error" id="error1"></div>
+        <div class="submit"><input type="submit" value="SUBMIT" class="submit1"></div>
+    </form>
 </body>
 </html>
